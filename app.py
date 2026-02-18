@@ -1,5 +1,6 @@
 from flask import Flask
 import logging
+import os
 import random
 
 app = Flask(__name__)
@@ -16,4 +17,4 @@ def home():
         return "App is running normally."
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
