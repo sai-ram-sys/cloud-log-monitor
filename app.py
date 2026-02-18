@@ -7,7 +7,7 @@ from email.message import EmailMessage
 
 app = Flask(__name__)
 
-logging.basicConfig(filename='app.log', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 EMAIL = os.environ.get("EMAIL")
 PASSWORD = os.environ.get("PASSWORD")
@@ -15,7 +15,7 @@ PASSWORD = os.environ.get("PASSWORD")
 def send_email():
     try:
         msg = EmailMessage()
-        msg.set_content("Error detected in cloud application log!")
+        msg.set_content("Error detected in cloud application!")
         msg["Subject"] = "Cloud Alert: Error Found"
         msg["From"] = EMAIL
         msg["To"] = EMAIL
@@ -29,15 +29,20 @@ def send_email():
     except Exception as e:
         print("Email failed:", e)
 
+# @app.route('/')
+# def home():
+#     if random.randint(1,5) == 3:
+#         logging.error("ERROR: Something went wrong!")
+#         send_email()
+#         return "Error occurred and email sent!"
+#     else:
+#         logging.info("INFO: Normal request")
+#         return "App running normally."
 @app.route('/')
 def home():
-    if random.randint(1,5) == 3:
-        logging.error("ERROR: Something went wrong!")
-        send_email()
-        return "Error occurred and email sent!"
-    else:
-        logging.info("INFO: Normal request")
-        return "App running normally."
+    logging.error("ERROR: Something went wrong!")
+    send_email()
+    return "Error occurred and email sent!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
