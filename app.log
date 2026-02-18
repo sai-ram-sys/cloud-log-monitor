@@ -1,0 +1,88 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:15] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:15] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:15] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:15] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:15] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:17] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:17] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:17] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:18] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:18] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:18] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:19] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:20] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:20] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:20] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:20] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:33:20] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:15] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:15] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:16] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:16] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:17] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:17] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:45] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:46] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:47] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:47] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:48] "GET / HTTP/1.1" 200 -
+INFO:root:INFO: Normal request
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:48] "GET / HTTP/1.1" 200 -
+ERROR:root:ERROR: Something went wrong!
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2026 12:36:49] "GET / HTTP/1.1" 200 -
